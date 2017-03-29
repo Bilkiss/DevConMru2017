@@ -8,7 +8,6 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
 import { ScanPage } from '../pages/scan/scan';
 
-
 @Component({
   templateUrl: 'app.html'
 })
