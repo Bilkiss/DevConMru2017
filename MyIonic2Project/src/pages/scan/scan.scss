@@ -1,0 +1,12 @@
+page-scan {
+  .scan-content{
+    background: map-get($colors, dark);
+    color: map_get($colors, light);
+  }
+  .scanner {
+    display: block;
+    font-size: 15em;
+    margin: 40% 0;
+    text-align: center;
+  }
+}

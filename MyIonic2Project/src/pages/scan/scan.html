@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Scan</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="scan-content" (click)="scanCode($event)">
+  <h3 text-center>Scan a QR Code</h3>
+
+  <ion-icon name="qr-scanner" class="scanner"></ion-icon>
+
+</ion-content>
